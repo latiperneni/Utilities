@@ -35,4 +35,5 @@ def split(filehandler, delimiter=',', row_limit=100000,
                 current_out_writer.writerow(headers)
         current_out_writer.writerow(row)
 
+
 split(open('test.csv', 'r'));
